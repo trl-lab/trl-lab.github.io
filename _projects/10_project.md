@@ -11,7 +11,7 @@ icons:
     site: devicons
   - file: https://sissel.gallerycdn.vsassets.io/extensions/sissel/shopify-liquid/4.0.1/1699358936199/Microsoft.VisualStudio.Services.Icons.Default
 repository:
-  - name: alshedivat/al-folio
+  - alshedivat/al-folio
 description: >
   A portfolio website template made using Jekyll
 ---
