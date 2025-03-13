@@ -1,0 +1,11 @@
+{% include project_intro.liquid img=page.img title=page.title icons=page.icons description=page.description %}
+<hr>
+{% if page.repository %}
+  <div class="card-container">
+    {% for repo in page.repository %}
+      {% include elements/repo_card.liquid repo=repo %}
+    {% endfor %}
+  </div>
+  <hr>
+{% endif %}
+{{ content }}
