@@ -1,9 +1,9 @@
 {% include project_intro.liquid img=page.img title=page.title icons=page.icons description=page.description %}
 <hr>
 {% if page.repository %}
-  <div class="card-container">
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% for repo in page.repository %}
-      {% include elements/repo_card.liquid repo=repo %}
+      {% include repository/repo.liquid repository=repo %}
     {% endfor %}
   </div>
   <hr>
