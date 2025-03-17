@@ -1,4 +1,5 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last %}
 
@@ -6,11 +7,13 @@
   {% if include.slot %}
     slot="{{ include.slot }}"
   {% endif %}
+  {% if include.style %}
+    style="{{ include.style }}"
+  {% endif %}
 >
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     {% if site.imagemagick.enabled %}
@@ -48,12 +51,6 @@
         style="
           {% if include['min-width'] %}
             min-width: {{ include.min-width }};
-          {% endif %}
-          {% if include['min-height'] %}
-            min-height: {{ include.min-height }};
-          {% endif %}
-          {% if include['max-width'] %}
-            max-width: {{ include.max-width }};
           {% endif %}
           {% if include['max-height'] %}
             max-height: {{ include.max-height }};

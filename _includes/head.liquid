@@ -1,6 +1,3 @@
-<!-- Metadata, OpenGraph and Schema.org -->
-{% include metadata.liquid %}
-
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
@@ -22,13 +19,7 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
-<link
-  defer
-  rel="stylesheet"
-  type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
->
+<link defer rel="stylesheet" type="text/css" href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -44,7 +35,7 @@
   <link defer href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet">
 {% endif %}
 
-<!-- Styles -->
+<!-- Project Styles -->
 
 <!-- pseudocode -->
 {% if page.pseudocode %}
