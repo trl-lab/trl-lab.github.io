@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Events
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: TRL seminar
+    permalink: /trl-seminar/
+  # - title: divider
+  - title: TRL reading group
+    permalink: /trl-reading-group/
 ---
