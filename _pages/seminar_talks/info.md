@@ -10,7 +10,7 @@ The TRL Seminar is an initiative under the affiliated
 ##### Logistics
 - When: every second Friday of the month, 4-5pm, with free drinks afterwards.
 - Where: room L3.36, LAB42 (University of Amsterdam), Science Park.
-- How: Talks are in-person, streamed and recorded through Zoom.
+- How: Talks are in-person, streamed and recorded through Zoom (link TBC).
 <br>
 
 ---
