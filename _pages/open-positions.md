@@ -18,6 +18,8 @@ We have two open positions for PhD researchers to start in Fall 2025 or Winter 2
     High-capacity neural models, such as transformers, have been pivotal for establishing general-purpose models for a wide variety of natural language tasks. Despite successful adaptations for structured data, our research has identified shortcomings for fundemental properties of tabular data. This research will focus on exploring fundamental techniques for tabular-native models. This can involve, for example, studying new model architectures, serialization methods, and tokenization techniques, among others. A strong interest and background in AI and NLP are desired.
 </ol>
 
+Both are 4-year positions with a gross monthly salary that increases from €2,884 in year 1 up to €3,801. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More conditions at: https://www.cwi.nl/jobs/terms-of-employment.
+
 <!-- Both PhDs are in collaboration with the University of Amsterdam, which will also be the degree-granting university.  -->
 
 If you would like to apply for any of these positions please send an email titled "Application PhD position" with your CV, grade list, and motivation to <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a>. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying!
