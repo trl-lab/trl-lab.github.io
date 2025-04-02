@@ -9,8 +9,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>contact: <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a></p>
+  # more_info: >
+  #   <p>contact: <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
