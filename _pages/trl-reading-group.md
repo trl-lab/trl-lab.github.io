@@ -10,7 +10,7 @@ collection: books
 
 ## Description
 
-Amsterdam Lunch on Table (ALOT) is **reading group focussed on table representation learning and neural models for
+Amsterdam Lunch on Table (ALOT) is a **reading group focussed on neural models for
 structured data** that takes place on every first and third Wednesday of the month over lunch (at 12:00). Our objective
 is to foster a collaborative environment where researchers from the Amsterdam region can discuss and explore the
 intersection of AI and structured data. Each session is designed to be interactive, encouraging participants to engage
@@ -19,8 +19,21 @@ to inspire research ideas, support growth as researcher, and facilitate networki
 
 ---
 
+<details open>
+<summary><strong>Where & when?</strong></summary>
+<ul>
+    <li><strong>When:</strong> Every first and third Wednesday of the month at 12:00 (over lunch)</li>
+    <li><strong>Where:</strong> For now, Centrum Wiskunde & Informatica (CWI), room L302 (Science Park 123, 1098 XG Amsterdam)</li>
+</ul>
+Please respond to our message on Discord if you are joining so we can pick you up at the CWI entrance. In the future,
+we plan to move the location to the UvA campus at Science Park to make it more accessible for everyone. We will keep you
+updated on this!
+</details>
+
+---
+
 <details>
-<summary>How it works</summary>
+<summary><strong>How it works</strong></summary>
 We discuss one paper in each session. The paper is selected by the group and is announced at least a week in advance.
 One person is responsible for chairing the session and preparing a short introduction to the paper.
 The session chair is also responsible for facilitating the discussion and ensuring that everyone has a chance to
@@ -30,21 +43,13 @@ session chair to enable a more comprehensive and engaging discussion.<br>
 We are meeting for our reading group over lunch and we encourage people to eat while we are discussing the paper. We are
 currently looking into having some lunch catered for the group, for now, we are still not sure if we will have this in
 place for the first session already or if you have to bring your own lunch.
-<br><br>
-Want to join the reading group? Then join the <a href="https://discord.gg/fSgyRFqCDB">ALOT Discord channel</a>. We manage
-the reading group via Discord and will announce the papers and sessions there.
 
 </details>
 
 ---
 
-<details>
-<summary>Where & when?</summary>
-We meet every first and third Wednesday of the month at 12:00. For now, we are meeting at the Centrum Wiskunde &
-Informatica in room L302 (Science Park 123, 1098 XG Amsterdam). Please let us know if you are
-joining so we can pick you up at the entrance. In the future, we plan to move the location to the UvA campus at Science
-Park to make it more accessible for everyone. We will keep you updated on this!
-</details>
+**Want to join the reading group?** Then join the [ALOT Discord channel](https://discord.gg/fSgyRFqCDB). We manage
+the reading group via Discord and will announce the papers and sessions there.
 
 ---
 
@@ -75,7 +80,8 @@ and knowledge to effectively navigate and address the prevailing challenges in t
 
 
 _Note: We are reading this survey paper in our inaugural session to get a good overview of the field and to have a
-common understanding of the terminology and topics covered in the field._
+common understanding of the terminology and topics covered in the field. Subsequent session will be on more specific
+topics._
 
 ---
 
