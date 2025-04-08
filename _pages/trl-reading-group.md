@@ -10,12 +10,13 @@ collection: books
 
 ## Description
 
-Amsterdam Lunch on Table (ALOT) is a **reading group focussed on neural models for
-structured data** that takes place on every first and third Wednesday of the month over lunch (at 12:00). Our objective
-is to foster a collaborative environment where researchers from the Amsterdam region can discuss and explore the
-intersection of AI and structured data. Each session is designed to be interactive, encouraging participants to engage
-in discussions that deepen their understanding of the latest research and methodologies. Through these sessions, we aim
-to inspire research ideas, support growth as researcher, and facilitate networking opportunities within the community.
+Amsterdam Lunch on Table (ALOT) is a **reading group focussed on table representation learning** and generally neural
+models for structured data that takes place on every first and third Wednesday of the month over lunch (at 12:00). Our
+objective is to foster a collaborative environment where researchers from the Amsterdam region can discuss and explore
+the intersection of AI and structured data. Each session is designed to be interactive, encouraging participants to
+engage in discussions that deepen their understanding of the latest research and methodologies. Through these sessions,
+we aim to inspire research ideas, support growth as researcher, and facilitate networking opportunities within the
+community.
 
 ---
 
