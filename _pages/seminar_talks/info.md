@@ -15,4 +15,4 @@ The TRL Seminar is an initiative from the TRL Lab under the affiliated
 
 ---
 
-## Talks
+## Upcoming talks
