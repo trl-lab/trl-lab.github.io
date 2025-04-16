@@ -99,6 +99,9 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 {% if session.notes %}
 <p><strong>Notes:</strong> {{ session.notes }}</p>
 {% endif %}
+{% if session.blog %}
+<p><strong href="{{ session.blog }}">Blog Post</strong></p>
+{% endif %}
 </details>
 {% endfor %}
 </details>
