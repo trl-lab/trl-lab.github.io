@@ -14,6 +14,8 @@ toc:
   sidebar: left
 ---
 
+_Authors (in alphabetical order): Cornelius Wolff, Daniel Gomm, Effy Xue Li, Madelon Hulsebos, Zeyu Zhang_
+
 For the inaugural session of the [Amsterdam Lunch on Table (ALoT) reading group](/trl-reading-group), we read the survey paper -
 [“Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding - A Survey “](https://arxiv.org/pdf/2402.17944)
 by X. Fang et al.
@@ -80,5 +82,3 @@ governments) while the types of tables (e.g. relational databases, spreadsheets,
 **Privacy concerns are common in tabular data contexts.** Tabular data is prevailing in organizational contexts. This
 induces the need for privacy-preserving methods, having high-performing models with sparse or synthetic data inputs,
 and developing realistic synthetic tabular datasets.
-
-> _Authors (in alphabetical order): Cornelius Wolff, Daniel Gomm, Effy Xue Li, Madelon Hulsebos, Zeyu Zhang_
