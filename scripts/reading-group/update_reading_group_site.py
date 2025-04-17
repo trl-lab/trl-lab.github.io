@@ -31,6 +31,7 @@ class ReadingGroupSession:
     chair: str
     chair_email: str
     notes: Optional[str] = None
+    blog: Optional[str] = None
 
 def load_sessions(json_path: str) -> List[ReadingGroupSession]:
     with open(json_path, 'r') as f:
@@ -41,7 +42,8 @@ def load_sessions(json_path: str) -> List[ReadingGroupSession]:
             paper=Paper(**session['paper']),
             chair=session['chair'],
             chair_email=session['chair_email'],
-            notes=session.get('notes')
+            notes=session.get('notes'),
+            blog = session.get('blog', None)
         )
         for session in sessions_data
     ]
