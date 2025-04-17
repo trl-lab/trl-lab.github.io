@@ -69,7 +69,6 @@ _**Session Chair:** [{{ upcoming_sessions[0].chair }}]({{ upcoming_sessions[0].c
 {{ upcoming_sessions[0].paper.abstract }}
 </details>
 
-
 {% if upcoming_sessions[0].notes %}
 _**Note:** {{ upcoming_sessions[0].notes }}_
 {% endif %}
@@ -84,6 +83,7 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 
 {% if past_sessions %}
 {% for year, sessions_by_year in past_sessions | groupby('date.year') | reverse %}
+
 <details {% if year == current_year %}open{% endif %}>
 <summary><strong>{{ year }}</strong></summary>
 {% for session in sessions_by_year %}
@@ -100,7 +100,7 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 <p><strong>Notes:</strong> {{ session.notes }}</p>
 {% endif %}
 {% if session.blog %}
-<p><strong href="{{ session.blog }}">Blog Post</strong></p>
+<p><a href="{{ session.blog }}">Blog Post</a></p>
 {% endif %}
 </details>
 {% endfor %}
@@ -110,4 +110,3 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 {% else %}
 _No previous sessions yet. Check back after the first session!_
 {% endif %}
-
