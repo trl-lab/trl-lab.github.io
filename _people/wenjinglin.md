@@ -1,6 +1,6 @@
 ---
 layout: page
-name: Wenjing Li
+name: Wenjing Lin
 role: Collaborator
 img: assets/img/5.jpg
 importance: 8
