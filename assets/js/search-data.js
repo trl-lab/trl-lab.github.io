@@ -60,8 +60,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250331/";
-            },},{id: "news-announcing-the-trl-lab-and-website",
-          title: 'Announcing the TRL Lab and website!',
+            },},{id: "news-we-are-hiring-two-new-phd-students",
+          title: 'We are hiring two new PhD students!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250418/";
