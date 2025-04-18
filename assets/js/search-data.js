@@ -60,6 +60,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250331/";
+            },},{id: "news-announcing-the-trl-lab-and-website",
+          title: 'Announcing the TRL Lab and website!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20250418/";
             },},{id: "people-corneliuswolff",
           title: 'Corneliuswolff',
           description: "",
