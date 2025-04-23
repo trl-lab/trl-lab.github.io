@@ -100,7 +100,7 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 <p><strong>Notes:</strong> {{ session.notes }}</p>
 {% endif %}
 {% if session.blog %}
-<p><a href="{{ session.blog }}">Blog Post</a></p>
+<p><a href="{{ session.blog }}">Synopsis of Reading Group Session</a></p>
 {% endif %}
 </details>
 {% endfor %}
