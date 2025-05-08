@@ -90,6 +90,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/madelonhulsebos/";
+            },},{id: "people-nikolaselic",
+          title: 'Nikolaselic',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/nikolaselic/";
             },},{id: "people-wenjinglin",
           title: 'Wenjinglin',
           description: "",
