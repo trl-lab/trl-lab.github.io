@@ -59,7 +59,7 @@ ninja.data = [{
           title: 'Announcing the TRL Lab and website!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/20250331/";
+              window.location.href = "/news/20250329/";
             },},{id: "news-we-are-hiring-two-new-phd-students",
           title: 'We are hiring two new PhD students!',
           description: "",
