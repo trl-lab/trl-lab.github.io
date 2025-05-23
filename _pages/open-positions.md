@@ -26,7 +26,7 @@ Both PhD students will be co-advised with professors from the University of Amst
 
 <!-- Both PhDs are in collaboration with the University of Amsterdam, which will also be the degree-granting university.  -->
 
-If you would like to apply for any of these positions please send an email titled "Application PhD position" with your CV, grade list, and motivation to <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a>. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying.
+If you would like to apply for any of these positions please use the apply portals linked above. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying.
 
 
 ### Temporary collaborations
