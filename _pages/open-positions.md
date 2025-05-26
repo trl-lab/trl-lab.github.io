@@ -12,8 +12,8 @@ nav_order: 3
 We have two open positions for PhD researchers to start in Fall 2025 or Winter 2025/2026:
 
 <ol>
-    <li><b>PhD on Responsible Mechanisms for AI-Powered Data Analysis</b>: Apply by 30 June 2025 <b><a href="https://www.cwi.nl/en/jobs/vacancies/1174839/" target="blank">here!</a></b></li>
-    Tabular data analysis is an emerging specialization of AI-powered systems in the form of, for example, agentic systems or other abstract LLM-pipelines, but research has shown that existing AI-powered data analysis frameworks are brittle. If successful, though, such systems can uncover high-value insights from structured data that prevails in governments, humanitarian organizations, enterprises, and healthcare. The anticipated research will focus on developing mechanisms for "responsible" (responsible in a broad sense) AI-powered data analysis systems. This can involve research questions from NLP and AI like model robustness and guardrails, human-computer interaction such as interpretability and interfaces, and ethics and regulation, but also be focused on applications such as data preparation, etc.
+    <li><b>PhD on Reliable Mechanisms for AI-Powered Data Analysis</b>: Apply by 30 June 2025 <b><a href="https://www.cwi.nl/en/jobs/vacancies/1174839/" target="blank">here!</a></b></li>
+    Tabular data analysis is an emerging specialization of AI-powered systems in the form of, for example, agentic systems or other abstract LLM-pipelines, but research has shown that existing AI-powered data analysis frameworks are brittle. If successful, though, such systems can uncover high-value insights from structured data that prevails in governments, humanitarian organizations, enterprises, and healthcare. The anticipated research will focus on developing mechanisms for reliable (reliable in a broad sense) AI-powered data analysis systems. This can involve research questions from NLP and AI like model robustness and guardrails, human-computer interaction such as interpretability and interfaces, and ethics and regulation, but also be focused on applications such as data preparation, etc.
     <br>
     <br>
     <br>
@@ -26,7 +26,7 @@ Both PhD students will be co-advised with professors from the University of Amst
 
 <!-- Both PhDs are in collaboration with the University of Amsterdam, which will also be the degree-granting university.  -->
 
-If you would like to apply for any of these positions please use the apply portals linked above. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying.
+If you would like to apply for any of these positions please use the application portals linked above. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying.
 
 
 ### Temporary collaborations
