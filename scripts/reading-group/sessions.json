@@ -42,7 +42,26 @@
     },
     "chair": "Zeyu Zhang",
     "chair_email": "z.zhang2@uva.nl",
-    "notes": "We will use the [nature publication](https://www.nature.com/articles/s41586-024-08328-6) as supplementary material.",
-    "blog": "/blog/2025/reading_group_session/"
+    "notes": "We will use the [nature publication](https://www.nature.com/articles/s41586-024-08328-6) as supplementary material."
+  },
+  {
+    "date": "2025-06-04T12:00:00",
+    "paper": {
+      "title": "TableGPT2: A Large Multimodal Model with Tabular Data Integration",
+      "authors": [
+        "A. Su",
+        "A. Wang",
+        "C. Ye",
+        "C. Zhou",
+        "G. Zhang",
+        "G. Chen"
+      ],
+      "url": "https://arxiv.org/abs/2411.02059",
+      "year": 2024,
+      "venue": "arXiv",
+      "abstract": "The emergence of models like GPTs, Claude, LLaMA, and Qwen has reshaped AI applications, presenting vast new opportunities across industries. Yet, the integration of tabular data remains notably underdeveloped, despite its foundational role in numerous real-world domains.\nThis gap is critical for three main reasons. First, database or data warehouse data integration is essential for advanced applications; second, the vast and largely untapped resource of tabular data offers immense potential for analysis; and third, the business intelligence domain specifically demands adaptable, precise solutions that many current LLMs may struggle to provide.\nIn response, we introduce TableGPT2, a model rigorously pre-trained and fine-tuned with over 593.8K tables and 2.36M high-quality query-table-output tuples, a scale of table-related data unprecedented in prior research. This extensive training enables TableGPT2 to excel in table-centric tasks while maintaining strong general language and coding abilities.\nOne of TableGPT2's key innovations is its novel table encoder, specifically designed to capture schema-level and cell-level information. This encoder strengthens the model's ability to handle ambiguous queries, missing column names, and irregular tables commonly encountered in real-world applications. Similar to visual language models, this pioneering approach integrates with the decoder to form a robust large multimodal model.\nWe believe the results are compelling: over 23 benchmarking metrics, TableGPT2 achieves an average performance improvement of 35.20% in the 7B model and 49.32% in the 72B model over prior benchmark-neutral LLMs, with robust general-purpose capabilities intact. "
+    },
+    "chair": "Xue Li",
+    "chair_email": "effy.li2@cwi.nl"
   }
 ]
