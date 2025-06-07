@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications by categories in reversed chronological order.
+description: Publications by categories in reversed chronological order.
 nav: true
 nav_order: 2
 ---
@@ -11,9 +11,9 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-The below selection of recent papers from the lab provides an (inexhaustive) representation of our research outputs and interests.
+The below selection of recent papers from the lab provides an (inexhaustive) representation of our output and interests.
 
-{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %} -->
 
 <div class="publications">
 
