@@ -63,5 +63,21 @@
     },
     "chair": "Xue Li",
     "chair_email": "effy.li2@cwi.nl"
+  },
+  {
+    "date": "2025-06-18T12:00:00",
+    "paper": {
+      "title": "AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries",
+      "authors": [
+        "J. Wang",
+        "G. Li"
+      ],
+      "url": "https://vldb.org/cidrdb/papers/2025/p32-wang.pdf",
+      "year": 2025,
+      "venue": "CIDR",
+      "abstract": "Current data lakes are limited to basic put/get functions on unstructured data and analytical queries on structured data. They fall short in handling complex queries that require multi-hop semantic retrieval and linking, multi-step logical reasoning, and multi-stage semantic analytics across unstructured, semi-structured, and structured data in data lakes. The introduction of large language models (LLMs) has significantly transformed the landscape of traditional data search and analytics across different fields due to their semantic comprehension and reasoning skills. Utilizing LLMs opens up new opportunities to efficiently handle these complex queries for data search and analytics, spanning structured, semi-structured, and unstructured data types in data lakes. However, LLMs struggle with complex queries that require complex task decomposition, pipeline orchestration, pipeline optimization, interactive execution, and self-reflection. In this work, we propose AOP, the first systematic system for automated pipeline orchestration in LLMs for answering complex queries on data lakes. AOP pre-defines standard semantic operators crucial for building execution workflows, such as semantic retrieval, filtering, aggregation, and validation. Then given an online query, AOP extracts relevant operators and uses these operators to automatically and interactively compose optimized pipelines with the assistance of LLMs. This enables AOP to adaptively and accurately address diverse and complex queries on data lakes. To further improve efficiency, we introduce query optimization techniques, including prefetching and parallel execution, to enhance overall efficiency without sacrificing accuracy. Through extensive experiments on real-world datasets, we demonstrate that AOP significantly improves the accuracy for answering complex queries. For instance, on a challenging test set, AOP increases answer accuracy by 45%. "
+    },
+    "chair": "Daniel Gomm",
+    "chair_email": "daniel.gomm@cwi.nl"
   }
 ]
