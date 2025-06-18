@@ -24,11 +24,11 @@ community.
 <summary><strong>Where & when?</strong></summary>
 <ul>
     <li><strong>When:</strong> Every first and third Wednesday of the month at 12:00 (over lunch)</li>
-    <li><strong>Where:</strong> For now, Centrum Wiskunde & Informatica (CWI), room L015 (Science Park 123, 1098 XG Amsterdam)</li>
+    <li><strong>Where:</strong> Centrum Wiskunde & Informatica (CWI), room L302 (Science Park 123, 1098 XG Amsterdam)</li>
 </ul>
-Please respond to our message on Discord if you are joining so we can pick you up at the CWI entrance. In the future,
-we plan to move the location to the UvA campus at Science Park to make it more accessible for everyone. We will keep you
-updated on this!
+Please respond to our message on Discord if you are joining so we can pick you up at the CWI entrance. We are
+considering to move the location to the UvA campus at Science Park to make it more accessible for everyone. We will keep
+you updated on this!
 </details>
 
 ---
