@@ -62,7 +62,7 @@ The next session of the ALOT reading group will take place on **{{ upcoming_sess
 _**Paper:** [{{ upcoming_sessions[0].paper.title }}]({{ upcoming_sessions[0].paper.url }})_\
 _**Authors:** {{ format_authors(upcoming_sessions[0].paper) }}_\
 _**Venue:** {{ upcoming_sessions[0].paper.venue }} ({{ upcoming_sessions[0].paper.year }})_\
-_**Session Chair:** [{{ upcoming_sessions[0].chair }}]({{ upcoming_sessions[0].chair_email }})_
+_**Session Chair:** [{{ upcoming_sessions[0].chair }}](mailto:{{ upcoming_sessions[0].chair_email }})_
 
 <details>
 <summary>Abstract</summary>
