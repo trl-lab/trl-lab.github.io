@@ -79,5 +79,22 @@
     },
     "chair": "Daniel Gomm",
     "chair_email": "daniel.gomm@cwi.nl"
+  },
+  {
+    "date": "2025-07-02T12:00:00",
+    "paper": {
+      "title": "Artificial Intelligence and Actor-Specific Decisions",
+      "authors": [
+        "T. Felin",
+        "M. Sako",
+        "J. Hullman"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5279401",
+      "year": 2025,
+      "venue": "Social Science Research Network",
+      "abstract": "Artificial intelligence (AI) is increasingly seen as potentially replacing humans in decision making and problem solving across numerous domains. We argue that AI is useful for a broad range of decisions, but not for actor-specific ones. Actor-specific decisions are (a) forward-looking, (b) individual and idiosyncratic, and require (c) reasoning, and some form of (d) experimentation or intervention. These four criteria—informally captured by the “FIRE” acronym—demarcate when decisions are more conducive to being made by humans rather than AI. The “actor” in actor-specificity refers to the focal decision maker, thus highlighting the need for a first-person point of view to decision making—an approach that cannot be modeled from a third-person, population-level perspective (which is also the basis of AI). We also show how the FIRE criteria jointly implicate and offer normative guidance for actor-specific, strategic decision making. We discuss the implications of our arguments for the theory-based view and the key cognitive processes of search, representation, and aggregation. "
+    },
+    "chair": "Cornelius Wolff",
+    "chair_email": "cornelius.wolff@cwi.nl"
   }
 ]
