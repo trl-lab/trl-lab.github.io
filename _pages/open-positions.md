@@ -17,7 +17,7 @@ We have two open positions for PhD researchers to start in Fall 2025 or Winter 2
     <br>
     <br>
     <br>
-    <li><b>PhD on Fundamental Techniques for Table Representation Learning</b>: Apply by 30 June 2025 <b><a href="https://www.cwi.nl/en/jobs/vacancies/1174839/" target="blank">here!</a></b></li>
+    <li><b>PhD on Fundamental Techniques for Table Representation Learning</b>: Apply by 30 June 2025 <b><a href="https://www.cwi.nl/en/jobs/vacancies/1174780/" target="blank">here!</a></b></li>
     High-capacity neural models, such as transformers, have been pivotal for establishing general-purpose models for a wide variety of natural language tasks. Despite successful adaptations for structured data, our research has identified shortcomings for fundemental properties of tabular data. This research will focus on exploring fundamental techniques for tabular-native models. This can involve, for example, studying new model architectures, serialization methods, and tokenization techniques, among others. A strong interest and background in AI and NLP are desired.<br>
 </ol>
 
