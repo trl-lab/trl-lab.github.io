@@ -9,7 +9,9 @@ nav_order: 3
 
 ### Long-term & funded research positions
 
-We have two open positions for PhD researchers to start in Fall 2025 or Winter 2025/2026:
+We currently don't have new PhD / postdoc positions open. Feel free to reach out if you are applying through the ELLIS PhD program and would like to work with us.
+
+<!-- We have two open positions for PhD researchers to start in Fall 2025 or Winter 2025/2026:
 
 <ol>
     <li><b>PhD on Reliable Mechanisms for AI-Powered Data Analysis</b>: Apply by 30 June 2025 <b><a href="https://www.cwi.nl/en/jobs/vacancies/1174839/" target="blank">here!</a></b></li>
@@ -21,16 +23,16 @@ We have two open positions for PhD researchers to start in Fall 2025 or Winter 2
     High-capacity neural models, such as transformers, have been pivotal for establishing general-purpose models for a wide variety of natural language tasks. Despite successful adaptations for structured data, our research has identified shortcomings for fundemental properties of tabular data. This research will focus on exploring fundamental techniques for tabular-native models. This can involve, for example, studying new model architectures, serialization methods, and tokenization techniques, among others. A strong interest and background in AI and NLP are desired.<br>
 </ol>
 
-Both PhD students will be co-advised with professors from the University of Amsterdam, and will receive their degree from the same university. Both are fully funded 4-year positions with a gross monthly salary that increases from €2,968 in year 1 up to €3,801. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More about the working conditions at: https://www.cwi.nl/jobs/terms-of-employment.
+Both PhD students will be co-advised with professors from the University of Amsterdam, and will receive their degree from the same university. Both are fully funded 4-year positions with a gross monthly salary that increases from €2,968 in year 1 up to €3,801. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More about the working conditions at: https://www.cwi.nl/jobs/terms-of-employment. -->
 
 
 <!-- Both PhDs are in collaboration with the University of Amsterdam, which will also be the degree-granting university.  -->
 
-If you would like to apply for any of these positions please use the application portals linked above. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying.
+<!-- If you would like to apply for any of these positions please use the application portals linked above. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying. -->
 
 
 ### Temporary collaborations
 
-We also host highly motivated senior PhD visitors from foreign institutes, and (ELLIS) research master students from Dutch universities. Please send an email with your CV and interest statement <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a>.
+We also host highly motivated senior PhD visitors from foreign institutes, and research master students from Dutch universities. Please send an email with your CV and interest statement <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a>.
 
-If you are an international ELLIS Honors bsc/msc student and want to collaborate and visit us with support of the <a href="https://ivi.fnwi.uva.nl/ellis/funding/ellis-msc-hosting-programme/" target="blank">ELLIS MSc Hosting Program</a>, please reach out to Madelon to align on a plan.
+If you are an international ELLIS Honors bsc/msc student and want to visit us with support of the <a href="https://ivi.fnwi.uva.nl/ellis/funding/ellis-msc-hosting-programme/" target="blank">ELLIS MSc Hosting Program</a>, please reach out to Madelon to align on a plan.
