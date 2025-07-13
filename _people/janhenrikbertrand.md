@@ -1,9 +1,9 @@
 ---
 layout: page
 name: "Jan Henrik Bertrand"
-role: Research student
+role: Research student (ELLIS MSc Honours Program)
 category: current
 img: assets/img/5.jpg
-redirect: https://scholar.google.com/citations?user=ULl8_W0AAAAJ&hl=en
+redirect: https://de.linkedin.com/in/jan-henrik-bertrand-01a2871a0
 importance: 7
 ---
