@@ -96,5 +96,24 @@
     },
     "chair": "Cornelius Wolff",
     "chair_email": "cornelius.wolff@cwi.nl"
+  },
+  {
+    "date": "2025-09-17T12:00:00",
+    "paper": {
+      "title": "On Finetuning Tabular Foundation Models",
+      "authors": [
+        "I. Rubachev",
+        "A. Kotelnikov",
+        "N. Kartashev",
+        "A. Babenko"
+      ],
+      "url": "https://arxiv.org/abs/2506.08982",
+      "year": 2025,
+      "venue": "arXiv",
+      "abstract": "Foundation models are an emerging research direction in tabular deep learning. Notably, TabPFNv2 recently claimed superior performance over traditional GBDT-based methods on small-scale datasets using an in-context learning paradigm, which does not adapt model parameters to target datasets. However, the optimal finetuning approach for adapting tabular foundational models, and how this adaptation reshapes their internal mechanisms, remains underexplored. While prior works studied finetuning for earlier foundational models, inconsistent findings and TabPFNv2's unique architecture necessitate fresh investigation. To address these questions, we first systematically evaluate various finetuning strategies on diverse datasets. Our findings establish full finetuning as the most practical solution for TabPFNv2 in terms of time-efficiency and effectiveness. We then investigate how finetuning alters TabPFNv2's inner mechanisms, drawing an analogy to retrieval-augmented models. We reveal that the success of finetuning stems from the fact that after gradient-based adaptation, the dot products of the query-representations of test objects and the key-representations of in-context training objects more accurately reflect their target similarity. This improved similarity allows finetuned TabPFNv2 to better approximate target dependency by appropriately weighting relevant in-context samples, improving the retrieval-based prediction logic. From the practical perspective, we managed to finetune TabPFNv2 on datasets with up to 50K objects, observing performance improvements on almost all tasks. More precisely, on academic datasets with I.I.D. splits, finetuning allows TabPFNv2 to achieve state-of-the-art results, while on datasets with gradual temporal shifts and rich feature sets, TabPFNv2 is less stable and prior methods remain better."
+    },
+    "chair": "Cornelius Wolf & Daniel Gomm",
+    "notes": "We are reading this paper as preparation for the upcoming presentation by Ivan Rubachev (Yandex) in the tabular data alphaxiv community.",
+    "chair_email": "daniel.gomm@cwi.nl"
   }
 ]
