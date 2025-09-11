@@ -9,7 +9,10 @@ nav_order: 3
 
 ### Long-term & funded research positions
 
-We currently don't have new PhD / postdoc positions open. Feel free to reach out if you are applying through the ELLIS PhD program and would like to work with us.
+<b>We are hiring new PhD students through the ELLIS PhD program to conduct research on Table Representation Learning</b>, who will be supervised by <a href="https://www.madelonhulsebos.com" target="blank">Madelon Hulsebos</a>. The research can be in the following directions 1) Fundamental Techniques for Table Representation Learning, 2) Reliable Mechanisms for AI-Powered Data Analysis, or 3) Models and Tools for Exploratory Data Analysis and Data Science (co-supervised with <a href="https://marinelm.github.io/" target="blank">Marine le Morvan</a>). <b>Applications are due 31 October. You can apply <a href="https://ellis.eu/news/ellis-phd-program-call-for-applications-2025" target="blank">here</a></b>!
+
+The PhD students will be based at CWI and will receive their degree from the University of Amsterdam. The ELLIS co-supervisor depends on the topic and can be discussed during the interview process. Both are fully funded 4-year positions with a gross monthly salary that increases from €3,059 in year 1 up to €3,881 in year 4. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More about the working conditions at: https://www.cwi.nl/jobs/terms-of-employment.
+
 
 <!-- We have two open positions for PhD researchers to start in Fall 2025 or Winter 2025/2026:
 
