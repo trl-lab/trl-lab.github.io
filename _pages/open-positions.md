@@ -7,11 +7,11 @@ nav_order: 3
 ---
 
 
-### Long-term & funded research positions
+### PhD and postdoc positions (funded)
 
-<b>We are hiring new PhD students through the ELLIS PhD program to conduct research on Table Representation Learning</b>, who will be supervised by <a href="https://www.madelonhulsebos.com" target="blank">Madelon Hulsebos</a>. The research can be in the following directions 1) Fundamental Techniques for Table Representation Learning, 2) Reliable Mechanisms for AI-Powered Data Analysis, or 3) Models and Tools for Exploratory Data Analysis and Data Science (co-supervised with <a href="https://marinelm.github.io/" target="blank">Marine le Morvan</a>). <b>Applications are due 31 October. You can apply <a href="https://ellis.eu/news/ellis-phd-program-call-for-applications-2025" target="blank">here</a></b>!
+<b>We are hiring new PhD students through the <a href="https://ellis.eu/phd-postdoc" target="blank">ELLIS PhD program</a> to conduct research on Table Representation Learning</b>. The positions are supervised by <a href="https://www.madelonhulsebos.com" target="blank">Madelon Hulsebos</a>, and can be in the following directions 1) Fundamental Techniques for Table Representation Learning, 2) Reliable Mechanisms for AI-Powered Data Analysis, or 3) Models and Tools for Exploratory Data Analysis and Data Science (co-supervised with <a href="https://marinelm.github.io/" target="blank">Marine le Morvan</a>). <b>Applications are due 31 October. You can apply <u><b><a href="https://ellis.eu/news/ellis-phd-program-call-for-applications-2025" target="blank">here</a></b></u>!!
 
-The PhD students will be based at CWI and will receive their degree from the University of Amsterdam. The ELLIS co-supervisor depends on the topic and can be discussed during the interview process. Both are fully funded 4-year positions with a gross monthly salary that increases from €3,059 in year 1 up to €3,881 in year 4. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More about the working conditions at: https://www.cwi.nl/jobs/terms-of-employment.
+The PhD positions are based at CWI and will receive their degree from the University of Amsterdam. The ELLIS co-supervisor depends on the topic and can be discussed during the interview process. Both are fully funded 4-year positions with a gross monthly salary that increases from €3,059 in year 1 up to €3,881 in year 4. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More about the working conditions can be found <a href="https://www.cwi.nl/jobs/terms-of-employment" target="blank">here</a>.
 
 
 <!-- We have two open positions for PhD researchers to start in Fall 2025 or Winter 2025/2026:
@@ -32,6 +32,21 @@ Both PhD students will be co-advised with professors from the University of Amst
 <!-- Both PhDs are in collaboration with the University of Amsterdam, which will also be the degree-granting university.  -->
 
 <!-- If you would like to apply for any of these positions please use the application portals linked above. Send an email titled "Inquiry PhD position" if you have specific questions about the research direction, lab or logistics. A masters degree is required, but we might be able to make an exception if you have completed a 4-year undergraduate program in a top university. In that case, please reach out before applying. -->
+
+
+### Master thesis projects (2026)
+
+This year, we host the following master thesis projects for students at the University of Amsterdam, who can learn more about the projects on the UvA's thesis portal. We may make exceptions for talented students from other universities with an exceptional good background fit for a project.
+
+<ul>
+<li>Knowledge-infused agentic data science pipelines</li>
+<li>Deep-dive into failure modes in tabular data science agents</li>
+<li>Query answerability for robust insight extraction from tabular data</li>
+<li>Assessing relevance of generated insights from tabular data</li>
+<li>Developing a new small-scale efficient text-to-SQL model</li>
+<li>Constrained decoding for SQL generation using small language models</li>
+<li>Synthetic tabular data generation</li>
+</ul>
 
 
 ### Temporary collaborations
