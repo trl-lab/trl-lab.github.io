@@ -39,12 +39,11 @@ Both PhD students will be co-advised with professors from the University of Amst
 This year, we host the following master thesis projects for students at the University of Amsterdam, who can learn more about the projects on the UvA's thesis portal. We may make exceptions for talented students from other universities with an exceptional good background fit for a project.
 
 <ul>
-<li>Knowledge-infused agentic data science pipelines</li>
-<li>Deep-dive into failure modes in tabular data science agents</li>
-<li>Query answerability for robust insight extraction from tabular data</li>
-<li>Assessing relevance of generated insights from tabular data</li>
-<li>Developing a new small-scale efficient text-to-SQL model</li>
-<li>Constrained decoding for SQL generation using small language models</li>
+<li>Contextual agentic data science pipelines</li>
+<li>Failure modes in tabular data science agents</li>
+<li>Robust open-domain insight extraction from tabular data</li>
+<li>Assessing generated insights from tabular data</li>
+<li>New small-scale efficient text-to-SQL models</li>
 <li>Synthetic tabular data generation</li>
 </ul>
 
