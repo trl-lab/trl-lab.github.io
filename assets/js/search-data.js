@@ -67,8 +67,13 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250329/";
-            },},{id: "news-we-are-hiring-phd-students-through-the-ellis-program",
-          title: 'We are hiring PhD students through the ELLIS Program!',
+            },},{id: "news-20250915",
+          title: '20250915',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20250915/";
+            },},{id: "news-we-39-re-hiring-through-the-ellis-phd-program",
+          title: 'We&amp;#39;re hiring through the ELLIS PhD program!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250930/";
