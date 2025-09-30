@@ -67,8 +67,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250329/";
-            },},{id: "news-20250915",
-          title: '20250915',
+            },},{id: "news-ai-for-tabular-data-workshop-at-eurips",
+          title: 'AI for Tabular Data workshop at EurIPS!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250915/";
