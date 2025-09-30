@@ -7,7 +7,7 @@ nav_order: 1
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: trl-lab-logo.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>contact: <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a></p>
