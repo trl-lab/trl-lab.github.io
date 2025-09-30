@@ -77,6 +77,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250915/";
+            },},{id: "news-finished-a-project-on-sensitive-data-detection-with-the-un",
+          title: 'Finished a project on sensitive data detection with the UN',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20250920/";
             },},{id: "news-we-39-re-hiring-through-the-ellis-phd-program",
           title: 'We&amp;#39;re hiring through the ELLIS PhD program!',
           description: "",
