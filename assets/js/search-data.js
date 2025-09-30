@@ -67,6 +67,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250329/";
+            },},{id: "news-attending-acl-in-vienna",
+          title: 'Attending ACL in Vienna!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20250730/";
             },},{id: "news-ai-for-tabular-data-workshop-at-eurips",
           title: 'AI for Tabular Data workshop at EurIPS!',
           description: "",
