@@ -67,11 +67,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250329/";
-            },},{id: "news-we-are-hiring-two-new-phd-students",
-          title: 'We are hiring two new PhD students!',
+            },},{id: "news-we-are-hiring-phd-students-through-the-ellis-program",
+          title: 'We are hiring PhD students through the ELLIS Program!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/20250418/";
+              window.location.href = "/news/20250930/";
             },},{id: "people-corneliuswolff",
           title: 'Corneliuswolff',
           description: "",
