@@ -77,8 +77,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250915/";
-            },},{id: "news-finished-a-project-on-sensitive-data-detection-with-the-un",
-          title: 'Finished a project on sensitive data detection with the UN',
+            },},{id: "news-working-with-the-united-nations-on-detecting-sensitive-data-in-humainitarian-datasets",
+          title: 'Working with the United Nations on detecting sensitive data in humainitarian datasets',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250920/";
