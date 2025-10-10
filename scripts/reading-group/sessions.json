@@ -115,5 +115,24 @@
     "chair": "Cornelius Wolf & Daniel Gomm",
     "notes": "We are reading this paper as preparation for the upcoming presentation by Ivan Rubachev (Yandex) in the tabular data alphaxiv community.",
     "chair_email": "daniel.gomm@cwi.nl"
+  },
+  {
+    "date": "2025-10-15T12:00:00",
+    "paper": {
+      "title": "The Anatomy of a Personal Health Agent",
+      "authors": [
+        "A. Heydari",
+        "K. Gu",
+        "V. Srinivas",
+        "H. Yu",
+        "Z. Zhang"
+      ],
+      "url": "https://research.google/blog/the-anatomy-of-a-personal-health-agent/",
+      "year": 2025,
+      "venue": "arXiv",
+      "abstract": "Health is a fundamental pillar of human wellness, and the rapid advancements in large language models (LLMs) have driven the development of a new generation of health agents. However, the application of health agents to fulfill the diverse needs of individuals in daily non-clinical settings is underexplored. In this work, we aim to build a comprehensive personal health agent that is able to reason about multimodal data from everyday consumer wellness devices and common personal health records, and provide personalized health recommendations. To understand end-users' needs when interacting with such an assistant, we conducted an in-depth analysis of web search and health forum queries, alongside qualitative insights from users and health experts gathered through a user-centered design process. Based on these findings, we identified three major categories of consumer health needs, each of which is supported by a specialist sub-agent: (1) a data science agent that analyzes personal time-series wearable and health record data, (2) a health domain expert agent that integrates users' health and contextual data to generate accurate, personalized insights, and (3) a health coach agent that synthesizes data insights, guiding users using a specified psychological strategy and tracking users' progress. Furthermore, we propose and develop the Personal Health Agent (PHA), a multi-agent framework that enables dynamic, personalized interactions to address individual health needs. To evaluate each sub-agent and the multi-agent system, we conducted automated and human evaluations across 10 benchmark tasks, involving more than 7,000 annotations and 1,100 hours of effort from health experts and end-users. Our work represents the most comprehensive evaluation of a health agent to date and establishes a strong foundation towards the futuristic vision of a personal health agent accessible to everyone."
+    },
+    "chair": "Xue Li",
+    "chair_email": "effy.li2@cwi.nl"
   }
 ]
