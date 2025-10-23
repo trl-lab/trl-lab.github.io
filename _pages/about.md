@@ -39,5 +39,5 @@ In this context our research focuses on topics such as new table embedding model
 
 The TRL Lab is led by <a href="https://www.madelonhulsebos.com">dr. ir. Madelon Hulsebos</a>, and <a href="/people" target="blank">hosts an excellent group</a> of postdoc, PhD, and MSc-level researchers at CWI. The lab is also affiliated with the <a href="https://ivi.fnwi.uva.nl/ellis/research/table-representation-learning/" target="blank">Table Representation Learning research theme</a> at ELLIS unit Amsterdam, where we organize a <a href="/trl-seminar" target="blank">seminar</a> and <a href="/trl-reading-group" target="blank">reading group</a>. Beyond CWI, we currently collaborate with researchers at the University of Amsterdam, UC Berkeley, the UN Humanitarian Data Centre, and Google Research. The lab is currently funded by an AiNed grant from the Dutch Research Council (NWO), an industry gift from SAP, and several compute credit grants from OpenAI, Google, and Cohere.
 
-Check our <a href="open-positions">open positions</a> to join us! For research- or societal collaborations, please <a href="mailto:madelon@cwi.nl" target="blank">reach out</a>.
+Check our <a href="/open-positions">open positions</a> to join us! For research- or societal collaborations, please <a href="mailto:madelon@cwi.nl" target="blank">reach out</a>.
 
