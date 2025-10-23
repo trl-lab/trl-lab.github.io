@@ -87,6 +87,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250930/";
+            },},{id: "people-ahmedomar",
+          title: 'Ahmedomar',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/ahmedomar/";
             },},{id: "people-corneliuswolff",
           title: 'Corneliuswolff',
           description: "",
