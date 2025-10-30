@@ -134,5 +134,25 @@
     },
     "chair": "Xue Li",
     "chair_email": "effy.li2@cwi.nl"
+  },
+  {
+    "date": "2025-11-05T12:00:00",
+    "paper": {
+      "title": "SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL",
+      "authors": [
+        "G. Qu",
+        "B. Qin",
+        "X. Li",
+        "N. Huo",
+        "C. Ma",
+        "R. Cheng"
+      ],
+      "url": "https://aclanthology.org/2025.acl-long.552/",
+      "year": 2025,
+      "venue": "ACL",
+      "abstract": "Current self-correction approaches in text-to-SQL face two critical limitations: 1) Conventional self-correction methods rely on recursive self-calls of LLMs, resulting in multiplicative computational overhead, and 2) LLMs struggle to implement effective error detection and correction for monolithic SQL queries, as they fail to demonstrate the underlying reasoning path. In this work, we propose **SHARE**, a **S**LM-based **H**ierarchical **A**ction cor**RE**ction assistant that enables LLMs to perform more precise error localization and efficient correction. SHARE orchestrates three specialized Small Language Models (SLMs) in a sequential pipeline, where it first transforms monolithic SQL queries into stepwise action trajectories that reveal underlying reasoning, followed by a two-phase granular refinement. We further propose a novel hierarchical self-evolution strategy for data-efficient training. Our experimental results demonstrate that SHARE effectively enhances self-correction capabilities while proving robust across various LLMs. Furthermore, our comprehensive analysis shows that SHARE maintains strong performance even in low-resource training settings, which is particularly valuable for text-to-SQL applications with data privacy constraints."
+    },
+    "chair": "Cornelius Wolf",
+    "chair_email": "cornelius.wolff@cwi.nl"
   }
 ]
