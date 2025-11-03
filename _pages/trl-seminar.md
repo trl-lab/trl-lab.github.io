@@ -10,7 +10,7 @@ profiles:
     content: seminar_talks/info.md
 
   - align: right
-    content: seminar_talks/202510.md
+    content: seminar_talks/202511.md
 
   - align: right
     content: seminar_talks/past-talks.md
@@ -22,6 +22,6 @@ profiles:
     content: seminar_talks/202505.md
 
   - align: right
-    content: seminar_talks/202511.md
+    content: seminar_talks/202510.md
 
 ---
