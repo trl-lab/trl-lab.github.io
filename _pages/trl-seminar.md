@@ -21,5 +21,7 @@ profiles:
   - align: right
     content: seminar_talks/202505.md
 
----
+  - align: right
+    content: seminar_talks/202511.md
 
+---
