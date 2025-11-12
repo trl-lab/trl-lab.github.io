@@ -97,6 +97,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/corneliuswolff/";
+            },},{id: "people-danieldedios",
+          title: 'Danieldedios',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/danieldedios/";
             },},{id: "people-danielgomm",
           title: 'Danielgomm',
           description: "",
@@ -112,6 +117,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/liangtelkamp/";
+            },},{id: "people-lisavanoosten",
+          title: 'Lisavanoosten',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/lisavanoosten/";
             },},{id: "people-madelonhulsebos",
           title: 'Madelonhulsebos',
           description: "",
