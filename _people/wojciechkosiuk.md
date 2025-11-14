@@ -5,5 +5,5 @@ role: Research assistant (ELLIS MSc Honours Program, UVA)
 category: current
 img: assets/img/wojciech-kosiuk.jpeg
 redirect: https://nl.linkedin.com/in/wojciech-kosiuk
-importance: 9
+importance: 8
 ---
