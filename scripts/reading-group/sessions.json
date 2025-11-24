@@ -161,6 +161,7 @@
     "paper": {
       "title": "Special Session: Quick-Fire round on 4 Poster Presentations from the AI for Tabular Data Workshop at EurIPS 2025",
       "authors": [
+        "Various Authors"
       ],
       "url": "https://openreview.net/group?id=EurIPS.cc/2025/Workshop/AITD#tab-accept-poster",
       "year": 2025,
@@ -169,6 +170,6 @@
     },
     "chair": "Cornelius Wolff, Xue Li, Daniel Gomm",
     "chair_email": "daniel.gomm@cwi.nl",
-    "notes": "We are reading the following papers:\n\n1. [Towards Understanding Layer Contributions in Tabular In-Context Learning Models](https://openreview.net/forum?id=v5YM4juVbF)\n2. [Play by the Type Rules: Inferring Constraints for Small Language Models in Declarative Programs](https://openreview.net/forum?id=Nv7zctYGYj)\n3. [Does TabPFN Understand Causal Structures?](https://openreview.net/forum?id=A8n3nvAYWl)\n4. [Exploring Multi-Table Retrieval Through Iterative Search](https://openreview.net/forum?id=d64whXpOgf&filter=excludedInvitations%3AEurIPS.cc%2F2025%2FWorkshop%2FAITD%2FSubmission41%2F-%2FChat&nesting=3&sort=date-desc)"
+    "notes": "We are reading the following papers:\n1. [Towards Understanding Layer Contributions in Tabular In-Context Learning Models](https://openreview.net/forum?id=v5YM4juVbF)\n2. [Play by the Type Rules: Inferring Constraints for Small Language Models in Declarative Programs](https://openreview.net/forum?id=Nv7zctYGYj)\n3. [Does TabPFN Understand Causal Structures?](https://openreview.net/forum?id=A8n3nvAYWl)\n4. [Exploring Multi-Table Retrieval Through Iterative Search](https://openreview.net/forum?id=d64whXpOgf&filter=excludedInvitations%3AEurIPS.cc%2F2025%2FWorkshop%2FAITD%2FSubmission41%2F-%2FChat&nesting=3&sort=date-desc)"
   }
 ]
