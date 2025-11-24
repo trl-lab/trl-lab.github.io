@@ -112,7 +112,7 @@
       "venue": "arXiv",
       "abstract": "Foundation models are an emerging research direction in tabular deep learning. Notably, TabPFNv2 recently claimed superior performance over traditional GBDT-based methods on small-scale datasets using an in-context learning paradigm, which does not adapt model parameters to target datasets. However, the optimal finetuning approach for adapting tabular foundational models, and how this adaptation reshapes their internal mechanisms, remains underexplored. While prior works studied finetuning for earlier foundational models, inconsistent findings and TabPFNv2's unique architecture necessitate fresh investigation. To address these questions, we first systematically evaluate various finetuning strategies on diverse datasets. Our findings establish full finetuning as the most practical solution for TabPFNv2 in terms of time-efficiency and effectiveness. We then investigate how finetuning alters TabPFNv2's inner mechanisms, drawing an analogy to retrieval-augmented models. We reveal that the success of finetuning stems from the fact that after gradient-based adaptation, the dot products of the query-representations of test objects and the key-representations of in-context training objects more accurately reflect their target similarity. This improved similarity allows finetuned TabPFNv2 to better approximate target dependency by appropriately weighting relevant in-context samples, improving the retrieval-based prediction logic. From the practical perspective, we managed to finetune TabPFNv2 on datasets with up to 50K objects, observing performance improvements on almost all tasks. More precisely, on academic datasets with I.I.D. splits, finetuning allows TabPFNv2 to achieve state-of-the-art results, while on datasets with gradual temporal shifts and rich feature sets, TabPFNv2 is less stable and prior methods remain better."
     },
-    "chair": "Cornelius Wolf & Daniel Gomm",
+    "chair": "Cornelius Wolff & Daniel Gomm",
     "notes": "We are reading this paper as preparation for the upcoming presentation by Ivan Rubachev (Yandex) in the tabular data alphaxiv community.",
     "chair_email": "daniel.gomm@cwi.nl"
   },
@@ -152,8 +152,23 @@
       "venue": "ACL",
       "abstract": "Current self-correction approaches in text-to-SQL face two critical limitations: 1) Conventional self-correction methods rely on recursive self-calls of LLMs, resulting in multiplicative computational overhead, and 2) LLMs struggle to implement effective error detection and correction for monolithic SQL queries, as they fail to demonstrate the underlying reasoning path. In this work, we propose **SHARE**, a **S**LM-based **H**ierarchical **A**ction cor**RE**ction assistant that enables LLMs to perform more precise error localization and efficient correction. SHARE orchestrates three specialized Small Language Models (SLMs) in a sequential pipeline, where it first transforms monolithic SQL queries into stepwise action trajectories that reveal underlying reasoning, followed by a two-phase granular refinement. We further propose a novel hierarchical self-evolution strategy for data-efficient training. Our experimental results demonstrate that SHARE effectively enhances self-correction capabilities while proving robust across various LLMs. Furthermore, our comprehensive analysis shows that SHARE maintains strong performance even in low-resource training settings, which is particularly valuable for text-to-SQL applications with data privacy constraints."
     },
-    "chair": "Cornelius Wolf",
+    "chair": "Cornelius Wolff",
     "chair_email": "cornelius.wolff@cwi.nl",
     "notes": "The session has been rescheduled from Wednesday 5 November to Friday 7 November due to a scheduling conflict."
+  },
+  {
+    "date": "2025-11-26T12:00:00",
+    "paper": {
+      "title": "Special Session: Quick-Fire round on 4 Poster Presentations from the AI for Tabular Data Workshop at EurIPS 2025",
+      "authors": [
+      ],
+      "url": "https://openreview.net/group?id=EurIPS.cc/2025/Workshop/AITD#tab-accept-poster",
+      "year": 2025,
+      "venue": "AI for Tabular Data workshop at EurIPS 2025",
+      "abstract": "-"
+    },
+    "chair": "Cornelius Wolff, Xue Li, Daniel Gomm",
+    "chair_email": "daniel.gomm@cwi.nl",
+    "notes": "We are reading the following papers:\n\n1. [Towards Understanding Layer Contributions in Tabular In-Context Learning Models](https://openreview.net/forum?id=v5YM4juVbF)\n2. [Play by the Type Rules: Inferring Constraints for Small Language Models in Declarative Programs](https://openreview.net/forum?id=Nv7zctYGYj)\n3. [Does TabPFN Understand Causal Structures?](https://openreview.net/forum?id=A8n3nvAYWl)\n4. [Exploring Multi-Table Retrieval Through Iterative Search](https://openreview.net/forum?id=d64whXpOgf&filter=excludedInvitations%3AEurIPS.cc%2F2025%2FWorkshop%2FAITD%2FSubmission41%2F-%2FChat&nesting=3&sort=date-desc)"
   }
 ]
