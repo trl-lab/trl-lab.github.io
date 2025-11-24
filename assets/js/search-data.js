@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/trl-reading-group/";
               },
-            },{id: "post-trl-reading-group-discussion-quot-large-language-models-llms-on-tabular-data-prediction-generation-and-understanding-a-survey-quot",
+            },{id: "post-have-your-queries-already-seen-the-data-data-privilege-in-tabular-benchmarks",
+        
+          title: 'Have your Queries Already Seen the Data? Data-Privilege in Tabular Benchmarks <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We take a look at how many popular benchmarks for evaluating natural language interfaces to tabular data contain &quot;data-privileged&quot; queries—questions that reference specific components of the data that real users wouldn&#39;t know about in open-domain settings.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.daniel-gomm.com/blog/2025/Have-you-Queries-Already-Seen-the-Data/", "_blank");
+          
+        },
+      },{id: "post-trl-reading-group-discussion-quot-large-language-models-llms-on-tabular-data-prediction-generation-and-understanding-a-survey-quot",
         
           title: "TRL reading group discussion: &quot;Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and...",
         
