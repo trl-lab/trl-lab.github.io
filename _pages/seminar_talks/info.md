@@ -4,13 +4,13 @@ The Table Representation Learning (TRL) Seminar hosts talks on recent research i
 
 ##### Organization
 The TRL Seminar is an initiative from the TRL Lab under the affiliated
-<a href="https://ivi.fnwi.uva.nl/ellis/research/table-representation-learning/" target="blank">Table Representation Learning Research Theme</a> in the ELLIS unit Amsterdam, and is organized by <a href="https://www.madelonhulsebos.com" target="blank">Madelon Hulsebos (CWI)</a>.
+<a href="https://ivi.fnwi.uva.nl/ellis/research/table-representation-learning/" target="blank">Table Representation Learning Research Theme</a> in the ELLIS unit Amsterdam, and is organized by <a href="https://www.madelonhulsebos.com" target="blank">Madelon Hulsebos (CWI)</a>, supported by Cornelius Wolff.
 
 
 ##### Logistics
-- When: every second Friday of the month, 4-5pm, with drinks afterwards.
-- Where: room L302 CWI, Science Park 123, Amsterdam (gather 5 minutes before start in the lobby).
-- How: Talks are in-person, streamed and recorded through Zoom (link TBC).
+- When: monthly on a Friday, 4-5pm, with drinks afterwards.
+- Where: room L302 CWI, Science Park 123, Amsterdam (gather 5 minutes before in the lobby).
+- How: talks are in-person, streamed and recorded through Zoom.
 <br>
 
 ---

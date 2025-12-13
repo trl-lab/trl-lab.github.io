@@ -98,6 +98,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20250930/";
+            },},{id: "news-two-papers-at-the-aitd-workshop-at-eurips-2025",
+          title: 'Two papers at the AITD workshop at EurIPS 2025!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20251125/";
             },},{id: "people-ahmedomar",
           title: 'Ahmedomar',
           description: "",
