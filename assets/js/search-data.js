@@ -103,6 +103,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20251125/";
+            },},{id: "news-liang-telkamp-awarded-an-amsterdam-ai-thesis-award",
+          title: 'Liang Telkamp awarded an Amsterdam AI Thesis Award!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20251207/";
             },},{id: "people-ahmedomar",
           title: 'Ahmedomar',
           description: "",
