@@ -148,6 +148,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/lisavanoosten/";
+            },},{id: "people-louisgehringer",
+          title: 'Louisgehringer',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/louisgehringer/";
             },},{id: "people-madelonhulsebos",
           title: 'Madelonhulsebos',
           description: "",
