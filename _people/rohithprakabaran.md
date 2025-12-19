@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "Rohith Prakabaran"
+name: "Rohith Prabakaran"
 role: PhD researcher
 category: current
 img: assets/img/5.jpg
