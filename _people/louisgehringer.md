@@ -1,7 +1,7 @@
 ---
 layout: page
 name: Louis Gehringer
-role: Research student
+role: Research student (MSc, UvA)
 category: current
 img: assets/img/louis-gehringer.png
 redirect: https://nl.linkedin.com/in/louisgehringer
