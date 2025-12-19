@@ -108,6 +108,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20251207/";
+            },},{id: "people-aeciosantos",
+          title: 'Aeciosantos',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/aeciosantos/";
             },},{id: "people-ahmedomar",
           title: 'Ahmedomar',
           description: "",
