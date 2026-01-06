@@ -168,11 +168,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/nikolaselic/";
-            },},{id: "people-rohithprakabaran",
-          title: 'Rohithprakabaran',
+            },},{id: "people-rohithprabakaran",
+          title: 'Rohithprabakaran',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/rohithprakabaran/";
+              window.location.href = "/people/rohithprabakaran/";
             },},{id: "people-wenjinglin",
           title: 'Wenjinglin',
           description: "",
