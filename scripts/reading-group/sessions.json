@@ -171,5 +171,26 @@
     "chair": "Cornelius Wolff, Xue Li, Daniel Gomm",
     "chair_email": "daniel.gomm@cwi.nl",
     "notes": "We are reading the following papers:\n1. [Towards Understanding Layer Contributions in Tabular In-Context Learning Models](https://openreview.net/forum?id=v5YM4juVbF)\n2. [Play by the Type Rules: Inferring Constraints for Small Language Models in Declarative Programs](https://openreview.net/forum?id=Nv7zctYGYj)\n3. [Does TabPFN Understand Causal Structures?](https://openreview.net/forum?id=A8n3nvAYWl)\n4. [Exploring Multi-Table Retrieval Through Iterative Search](https://openreview.net/forum?id=d64whXpOgf&filter=excludedInvitations%3AEurIPS.cc%2F2025%2FWorkshop%2FAITD%2FSubmission41%2F-%2FChat&nesting=3&sort=date-desc)"
+  },
+  {
+    "date": "2026-01-21T12:00:00",
+    "paper": {
+      "title": "An Information Theoretic Perspective on Agentic System Design",
+      "authors": [
+        "S. He",
+        "A. Narayan",
+        "I. S. Khare",
+        "S. W. Linderman",
+        "C. Ré",
+        "D. Biderman"
+      ],
+      "url": "https://arxiv.org/pdf/2512.21720",
+      "year": 2025,
+      "venue": "arXiv",
+      "abstract": "Agentic language model (LM) systems power modern applications like \"Deep Research\" and \"Claude Code,\" and leverage multi-LM architectures to overcome context limitations. Beneath their apparent diversity lies a recurring pattern: smaller \"compressor\" LMs (that can even run locally) distill raw context into compact text that is then consumed by larger \"predictor\" LMs. Despite their popularity, the design of compressor-predictor systems remains largely ad hoc, with little guidance on how compressor and predictor choices shape downstream performance. In practice, attributing gains to compression versus prediction requires costly, task-specific pairwise sweeps. We argue that these agentic system design questions are, at root, information-theoretic. Viewing the compressor LM as a noisy channel, we introduce a simple estimator of mutual information between the context and its compression to quantify compression quality in a task-independent way. We show that mutual information strongly predicts downstream performance, independent of any specific task. Through an information-theoretic framework, we perform a comprehensive empirical analysis across five datasets and three model families. Results reveal that larger compressors not only are more accurate, but also more token-efficient, conveying more bits of information per token. A 7B Qwen-2.5 compressor, for instance, is 1.6x more accurate, 4.6x more concise, and conveys 5.5x more bits of mutual information per token than its 1.5B sibling. Across datasets, scaling compressors is substantially more effective than scaling predictors, enabling larger on-device compressors to pair with smaller cloud predictors. Applied to a Deep Research system, these principles enable local compressors as small as 3B parameters to recover 99% of frontier-LM accuracy at 26% of API costs."
+    },
+    "chair": "Xue Li",
+    "chair_email": "effy.li2@cwi.nl",
+    "theme_id": "agentic_winter"
   }
 ]
