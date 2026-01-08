@@ -18,6 +18,10 @@ engage in discussions that deepen their understanding of the latest research and
 we aim to inspire research ideas, support growth as researcher, and facilitate networking opportunities within the
 community.
 
+From the start of 2026 we are introducing themes: Series of 3-5 reading group sessions on a specific sub-topic within
+the domain of AI for tabular data. We start the year with _Agentic Winter_ which focuses on agentic approaches on
+tabular data.
+
 ---
 
 <details open>
@@ -75,6 +79,50 @@ _**Note:** {{ upcoming_sessions[0].notes }}_
 
 {% else %}
 _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
+{% endif %}
+
+{% if themes %}
+
+---
+
+## Themes
+
+{% for theme in themes %}
+
+### {{ theme.theme.name }}
+
+{% if theme.theme.cover_path %}
+{% raw %}{% include figure.liquid loading="eager" path="{% endraw %}{{ theme.theme.cover_path }}{% raw %}" sizes="600px" class="card-img-top" %}{% endraw %}
+{% endif %}
+
+<p>{{ theme.theme.description }}</p>
+
+{% if theme.sessions and theme.sessions|length > 0 %}
+<details open>
+<summary><strong>Sessions in this theme ({{ theme.sessions|length }})</strong></summary>
+{% for session in theme.sessions %}
+<details style="margin-left: 50px;">
+<summary><strong>{{ session.date.strftime('%A, %B %d, %Y') }} - {{ session.paper.title }}</strong></summary>
+<ul>
+    <li><strong>Title: </strong> <a href="{{ session.paper.url }}"> {{ session.paper.title }} </a> </li>
+    <li><strong>Authors:</strong> {{ format_authors(session.paper) }}</li>
+    <li><strong>Venue:</strong> {{ session.paper.venue }} ({{ session.paper.year }})</li>
+    <li><strong>Session Chair:</strong> <a href="mailto:{{ session.chair_email }}"> {{ session.chair }} </a></li>
+</ul>
+<p><strong>Abstract:</strong> {{ session.paper.abstract }}</p>
+{% if session.notes %}
+<p><strong>Notes:</strong> {{ session.notes }}</p>
+{% endif %}
+{% if session.blog %}
+<p><a href="{{ session.blog }}">Synopsis of Reading Group Session</a></p>
+{% endif %}
+</details>
+{% endfor %}
+</details>
+{% endif %}
+
+{% endfor %}
+
 {% endif %}
 
 ---
