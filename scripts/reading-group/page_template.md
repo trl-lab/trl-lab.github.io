@@ -82,23 +82,67 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 {% endif %}
 
 {% if themes %}
+{% if themes|length > 0 %}
 
 ---
 
-## Themes
+## Current Theme
 
-{% for theme in themes %}
+{% set current_theme = themes[0] %}
 
-### {{ theme.theme.name }}
+### {{ current_theme.theme.name }}
+
+{% if current_theme.theme.cover_path %}
+{% raw %}{% include figure.liquid loading="eager" path="{% endraw %}{{ current_theme.theme.cover_path }}{% raw %}" sizes="600px" class="card-img-top" %}{% endraw %}
+{% endif %}
+
+<p>{{ current_theme.theme.description }}</p>
+
+{% if current_theme.sessions and current_theme.sessions|length > 0 %}
+<details open>
+<summary><strong>Sessions in this theme ({{ current_theme.sessions|length }})</strong></summary>
+{% for session in current_theme.sessions %}
+<details style="margin-left: 50px;">
+<summary><strong>{{ session.date.strftime('%A, %B %d, %Y') }} - {{ session.paper.title }}</strong></summary>
+<ul>
+    <li><strong>Title: </strong> <a href="{{ session.paper.url }}"> {{ session.paper.title }} </a> </li>
+    <li><strong>Authors:</strong> {{ format_authors(session.paper) }}</li>
+    <li><strong>Venue:</strong> {{ session.paper.venue }} ({{ session.paper.year }})</li>
+    <li><strong>Session Chair:</strong> <a href="mailto:{{ session.chair_email }}"> {{ session.chair }} </a></li>
+</ul>
+<p><strong>Abstract:</strong> {{ session.paper.abstract }}</p>
+{% if session.notes %}
+<p><strong>Notes:</strong> {{ session.notes }}</p>
+{% endif %}
+{% if session.blog %}
+<p><a href="{{ session.blog }}">Synopsis of Reading Group Session</a></p>
+{% endif %}
+</details>
+{% endfor %}
+</details>
+{% endif %}
+
+{% endif %}
+
+{% if themes|length > 1 %}
+
+### Past Themes
+
+<details>
+<summary><strong>View past themes ({{ themes|length - 1 }})</strong></summary>
+
+{% for theme in themes[1:] %}
+
+<h4>{{ theme.theme.name }}</h4>
 
 {% if theme.theme.cover_path %}
-{% raw %}{% include figure.liquid loading="eager" path="{% endraw %}{{ theme.theme.cover_path }}{% raw %}" sizes="600px" class="card-img-top" %}{% endraw %}
+{% raw %}{% include figure.liquid loading="eager" path="{% endraw %}{{ theme.theme.cover_path }}{% raw %}" sizes="400px" class="card-img-top" %}{% endraw %}
 {% endif %}
 
 <p>{{ theme.theme.description }}</p>
 
 {% if theme.sessions and theme.sessions|length > 0 %}
-<details open>
+<details>
 <summary><strong>Sessions in this theme ({{ theme.sessions|length }})</strong></summary>
 {% for session in theme.sessions %}
 <details style="margin-left: 50px;">
@@ -123,6 +167,10 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 
 {% endfor %}
 
+</details>
+
+{% endif %}
+
 {% endif %}
 
 ---
@@ -130,11 +178,24 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 ## Previous Sessions
 
 {% if past_sessions %}
+
+<div style="margin-bottom: 20px;">
+    <label for="session-filter">Search past sessions: </label>
+    <input type="text" id="session-filter" placeholder="Type to search sessions..." style="padding: 8px; width: 300px; border: 1px solid #ddd; border-radius: 4px;">
+    <button onclick="resetSessionFilter()" style="padding: 8px 16px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">Reset</button>
+</div>
+
+<div id="session-counter" style="margin-bottom: 15px; font-style: italic;">
+    Showing <span id="visible-sessions">{{ past_sessions|length }}</span> of <span id="total-sessions">{{ past_sessions|length }}</span> sessions
+</div>
+
 {% for year, sessions_by_year in past_sessions | groupby('date.year') | reverse %}
 
+<div class="session-year" data-year="{{ year }}">
 <details {% if year == current_year %}open{% endif %}>
 <summary><strong>{{ year }}</strong></summary>
 {% for session in sessions_by_year %}
+<div class="session-item" data-session-title="{{ session.paper.title|lower }}" data-session-authors="{{ format_authors(session.paper)|lower }}">
 <details style="margin-left: 50px;">
 <summary><strong>{{ session.date.strftime('%A, %B %d, %Y') }} - {{ session.paper.title }}</strong></summary>
 <ul>
@@ -151,10 +212,58 @@ _No upcoming sessions scheduled at the moment. Stay tuned for updates!_
 <p><a href="{{ session.blog }}">Synopsis of Reading Group Session</a></p>
 {% endif %}
 </details>
+</div>
 {% endfor %}
 </details>
-<hr/>
+</div>
 {% endfor %}
+
+<script>
+// Session filtering functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const filterInput = document.getElementById('session-filter');
+    const sessionItems = document.querySelectorAll('.session-item');
+    const visibleCounter = document.getElementById('visible-sessions');
+    const totalCounter = document.getElementById('total-sessions');
+    
+    if (filterInput) {
+        filterInput.addEventListener('input', function() {
+            const filterText = this.value.toLowerCase();
+            let visibleCount = 0;
+            
+            sessionItems.forEach(item => {
+                const title = item.getAttribute('data-session-title');
+                const authors = item.getAttribute('data-session-authors');
+                
+                if (title.includes(filterText) || authors.includes(filterText)) {
+                    item.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            visibleCounter.textContent = visibleCount;
+        });
+    }
+});
+
+function resetSessionFilter() {
+    const filterInput = document.getElementById('session-filter');
+    if (filterInput) {
+        filterInput.value = '';
+        const event = new Event('input');
+        filterInput.dispatchEvent(event);
+    }
+}
+</script>
+
+<style>
+.session-item {
+    margin-bottom: 15px;
+}
+</style>
+
 {% else %}
 _No previous sessions yet. Check back after the first session!_
 {% endif %}

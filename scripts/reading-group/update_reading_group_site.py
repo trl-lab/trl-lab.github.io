@@ -84,7 +84,8 @@ def load_themes(json_path: str) -> List[Theme]:
 def generate_markdown(template_path: str, sessions: List[ReadingGroupSession], themes: List[Theme]):
     # Sort sessions by date
     sessions.sort(key=lambda s: s.date)
-    themes.sort(key=lambda t: t.date)
+    # Sort themes by date (newest first for better visibility)
+    themes.sort(key=lambda t: t.date, reverse=True)
     upcoming_sessions = [s for s in sessions if s.date >= datetime.now()]
     past_sessions = [s for s in sessions if s.date < datetime.now()]
 
