@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "Wojciech Kosiuk"
-role: Research assistant (ELLIS MSc Honours Program, UvA)
+role: Research student (ELLIS Honours Program, UvA)
 category: current
 img: assets/img/wojciech-kosiuk.jpeg
 redirect: https://nl.linkedin.com/in/wojciech-kosiuk
