@@ -193,6 +193,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/xueeffyli/";
+            },},{id: "people-ymekingma",
+          title: 'Ymekingma',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/ymekingma/";
             },},{
         id: 'social-email',
         title: 'email',
