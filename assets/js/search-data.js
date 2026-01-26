@@ -108,6 +108,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20251207/";
+            },},{id: "news-three-new-trl-seminar-talks-now-live-on-youtube",
+          title: 'Three new TRL Seminar talks now live on YouTube!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20260123/";
             },},{id: "people-aeciosantos",
           title: 'Aeciosantos',
           description: "",
