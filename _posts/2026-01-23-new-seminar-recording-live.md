@@ -1,0 +1,65 @@
+---
+layout: post
+title: Three new TRL Seminar talks now live on YouTube!
+date: 2026-01-25
+description: >
+  Recordings of three recent TRL Seminar talks from 23 January 2026 are now available on YouTube, covering topics on natural language interfaces, text-to-SQL, and scalable knowledge discovery from tabular data.
+tags: recordings
+categories: seminar
+pretty_table: true
+toc:
+  sidebar: left
+---
+
+Great news 🎥 — three recent talks from the TRL Seminar Series are now available to watch on YouTube! The sessions took place on **23 January** at **CWI, Amsterdam Science Park**, and covered current research on natural language interfaces, text-to-SQL, and scalable knowledge discovery from tabular data.
+
+Below is a short overview of the talks and speakers.
+
+---
+
+### Daniel Gomm  
+*CWI & University of Amsterdam*  
+**“Are We Asking the Right Questions? On Ambiguity in Natural Language Queries for Tabular Data Analysis”**
+
+Natural language interfaces for tabular data analysis must contend with ambiguity in user queries. Rather than treating ambiguity as a flaw to be eliminated, this talk argues that ambiguity is often an intentional and productive aspect of user–system interaction.
+
+Daniel presented a principled framework that views analytical queries through the lens of cooperative interaction, distinguishing between:
+- unambiguous queries,
+- cooperative but underspecified queries that systems can reasonably resolve, and
+- uncooperative queries that lack sufficient information for actionable interpretation.
+
+Grounded in linguistic theory, the framework clarifies how responsibility for query specification is shared between user and system. Applying this framework to 15 widely used benchmarks for tabular question answering, text-to-SQL, and data analysis, the talk shows that current datasets often conflate different query types—undermining meaningful evaluation. The work concludes with implications for designing more realistic benchmarks and for building systems that support cooperative grounding, selective inference, and iterative clarification.
+
+Link to talk: <a href="https://youtu.be/XREvAoCLvRI" target="_blank">https://youtu.be/XREvAoCLvRI</a>
+
+---
+
+### Cornelius Wolff  
+*CWI & University of Amsterdam*  
+**“SQALE: Scaling Text-to-SQL with Realistic Database Schemas”**
+
+Text-to-SQL models have seen major gains thanks to large language models, yet progress is still limited by the scale and realism of available training data.
+
+In this talk, Cornelius introduced **SQALE**, a large-scale semi-synthetic text-to-SQL dataset grounded in real-world database schemas. SQALE contains over **517,000 validated (question, schema, query) triples** built on **135,000+ relational schemas** derived from SchemaPile. The dataset is constructed via a principled pipeline combining schema extension, natural language question generation, SQL synthesis, and execution-based validation.
+
+The talk discussed the design choices behind SQALE, compared its statistical properties to benchmarks such as Spider 2.0 and BIRD, and highlighted how SQALE enables more realistic training and evaluation of text-to-SQL systems.
+
+Link to talk: <a href="https://youtu.be/QIc_aAC7iHc" target="_blank">https://youtu.be/QIc_aAC7iHc</a>
+
+---
+
+### Erkan Karabulut  
+*University of Amsterdam*  
+**“Scalable Knowledge Discovery from Tabular Data”**
+
+Discovering interpretable patterns from data is central to knowledge discovery and explainable inference. Association Rule Mining (ARM) is a classic approach, but existing methods struggle to scale to high-dimensional tables.
+
+This talk introduced **Aerial+**, a novel ARM method that leverages neural networks to handle high-dimensional tabular data and learn a concise set of prominent patterns. Aerial+ has been evaluated on digital twin datasets (sensor data enriched with semantics) as well as generic tabular datasets, demonstrating broad applicability.
+
+A key feature of Aerial+ is its ability to incorporate prior knowledge—either from knowledge graphs or from tabular foundation models—enhancing both scalability and the quality of discovered patterns.
+
+Link to talk: <a href="https://youtu.be/Ef2V-rlebHo" target="_blank">https://youtu.be/Ef2V-rlebHo</a>
+
+---
+
+All three talks were delivered in person at CWI and streamed live, and they are now available to watch online. Check them out on YouTube and catch up on the latest TRL Seminar insights! 🚀
