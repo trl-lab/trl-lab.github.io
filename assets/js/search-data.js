@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/trl-reading-group/";
               },
-            },{id: "post-have-your-queries-already-seen-the-data-data-privilege-in-tabular-benchmarks",
+            },{id: "post-three-new-trl-seminar-talks-now-live-on-youtube",
+        
+          title: "Three new TRL Seminar talks now live on YouTube!",
+        
+        description: "Recordings of three recent TRL Seminar talks from 23 January 2026 are now available on YouTube, covering topics on natural language interfaces, text-to-SQL, and scalable knowledge discovery from tabular data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/new-seminar-recording-live/";
+          
+        },
+      },{id: "post-have-your-queries-already-seen-the-data-data-privilege-in-tabular-benchmarks",
         
           title: 'Have your Queries Already Seen the Data? Data-Privilege in Tabular Benchmarks <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
