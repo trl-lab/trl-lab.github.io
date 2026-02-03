@@ -192,5 +192,27 @@
     "chair": "Xue Li",
     "chair_email": "effy.li2@cwi.nl",
     "theme_id": "agentic_winter"
+  },
+  {
+    "date": "2026-02-02T12:00:00",
+    "paper": {
+      "title": "How to build and train AI agents with reinforcement learning.",
+      "authors": [
+        "S. Du",
+        "J. Zhao",
+        "J. Shi",
+        "Z. Xie",
+        "Y. Bai",
+        "L. He"
+      ],
+      "url": "https://arxiv.org/pdf/2503.12434",
+      "year": 2025,
+      "venue": "arXiv",
+      "abstract": "With the rapid development of Large Language Models (LLMs), LLM-based agents have been widely adopted\nin various fields, becoming essential for autonomous decision-making and interactive tasks. However, current\nwork typically relies on prompt design or fine-tuning strategies applied to vanilla LLMs, which often leads\nto limited effectiveness or suboptimal performance in complex agent-related environments. Although LLM\noptimization techniques can improve model performance across many general tasks, they lack specialized\noptimization towards critical agent functionalities such as long-term planning, dynamic environmental\ninteraction, and complex decision-making. Although numerous recent studies have explored various strategies\nto optimize LLM-based agents for complex agent tasks, a systematic review summarizing and comparing these\nmethods from a holistic perspective is still lacking. In this survey, we provide a comprehensive review of LLM-\nbased agent optimization approaches, categorizing them into parameter-driven and parameter-free methods.\nWe first focus on parameter-driven optimization, covering fine-tuning-based optimization, reinforcement\nlearning-based optimization, and hybrid strategies, analyzing key aspects such as trajectory data construction,\nfine-tuning techniques, reward function design, and optimization algorithms. Additionally, we briefly discuss\nparameter-free strategies that optimize agent behavior through prompt engineering and external knowledge\nretrieval. Finally, we summarize the datasets and benchmarks used for evaluation and tuning, review key\napplications of LLM-based agents, and discuss major challenges and promising future directions. Our repository\nfor related references is available at https://github.com/YoungDubbyDu/LLM-Agent-Optimization."
+    },
+    "chair": "Cornelius Wolff",
+    "chair_email": "cornelius.wolff@cwi.nl",
+    "notes":  "This session is more of a tutorial-style session, instead of a regular, discussion-focussed reading-group session.",
+    "theme_id": "agentic_winter"
   }
 ]
