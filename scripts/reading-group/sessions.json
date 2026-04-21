@@ -235,5 +235,52 @@
     "chair": "Aécio Santos",
     "chair_email": "aecio.rodrigues.santos@cwi.nl",
     "theme_id": "agentic_winter"
+  },
+  {
+    "date": "2026-04-01T12:00:00",
+    "paper": {
+      "title": "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+      "authors": [
+        "K. Yang",
+        "Z. Chen",
+        "X. He",
+        "J. Jiang",
+        "M. Galley",
+        "C. Wang",
+        "J. Gao",
+        "J. Han",
+        "C. Zhai"
+      ],
+      "url": "https://www.microsoft.com/en-us/research/publication/plugmem-a-task-agnostic-plugin-memory-module-for-llm-agents/",
+      "year": 2026,
+      "venue": "Microsoft",
+      "abstract": "Long-term memory is essential for large language model (LLM) agents operating in complex environments, yet existing memory designs are either task-specific and non-transferable, or task-agnostic but less effective due to low task-relevance and context explosion from raw memory retrieval. We propose PlugMem, a task-agnostic plugin memory module that can be attached to arbitrary LLM agents without task-specific redesign. Motivated by the fact that decision-relevant information is concentrated as abstract knowledge rather than raw experience, we draw on cognitive science to structure episodic memories into a compact, extensible knowledge-centric memory graph that explicitly represents propositional and prescriptive knowledge. This representation enables efficient memory retrieval and reasoning over task-relevant knowledge, rather than verbose raw trajectories, and departs from other graph-based methods like GraphRAG by treating knowledge as the unit of memory access and organization instead of entities or text chunks. We evaluate PlugMem unchanged across three heterogeneous benchmarks (long-horizon conversational question answering, multi-hop knowledge retrieval, and web agent tasks). The results show that PlugMem consistently outperforms task-agnostic baselines and exceeds task-specific memory designs, while also achieving the highest information density under a unified information-theoretic analysis."
+    },
+    "chair": "Aécio Santos",
+    "chair_email": "aecio.rodrigues.santos@cwi.nl",
+    "theme_id": "agentic_winter"
+  },
+  {
+    "date": "2026-04-15T12:00:00",
+    "paper": {
+      "title": "The Latent Space: Foundation, Evolution,  Mechanism, Ability, and Outlook",
+      "authors": [
+        "X. Yu",
+        "Z. Chen",
+        "X. He",
+        "T. Fu",
+        "C. Yang",
+        "C. Xu",
+        "Y. Ma",
+        "X. Hu",
+        "C. Cao"
+      ],
+      "url": "https://arxiv.org/abs/2604.02029",
+      "year": 2026,
+      "venue": "arXiv",
+      "abstract": "Latent space is rapidly emerging as a native substrate for language-based models. While modern systems are still commonly understood through explicit token-level generation, an increasing body of work shows that many critical internal processes are more naturally carried out in continuous latent space than in human-readable verbal traces. This shift is driven by the structural limitations of explicit-space computation, including linguistic redundancy, discretization bottlenecks, sequential inefficiency, and semantic loss. This survey aims to provide a unified and up-to-date landscape of latent space in language-based models. We organize the survey into five sequential perspectives: Foundation, Evolution, Mechanism, Ability, and Outlook. We begin by delineating the scope of latent space, distinguishing it from explicit or verbal space and from the latent spaces commonly studied in generative visual models. We then trace the field's evolution from early exploratory efforts to the current large-scale expansion. To organize the technical landscape, we examine existing work through the complementary lenses of mechanism and ability. From the perspective of Mechanism, we identify four major lines of development: Architecture, Representation, Computation, and Optimization. From the perspective of Ability, we show how latent space supports a broad capability spectrum spanning Reasoning, Planning, Modeling, Perception, Memory, Collaboration, and Embodiment. Beyond consolidation, we discuss the key open challenges, and outline promising directions for future research. We hope this survey serves not only as a reference for existing work, but also as a foundation for understanding latent space as a general computational and systems paradigm for next-generation intelligence."
+    },
+    "chair": "Daniel Gomm",
+    "chair_email": "daniel.gomm@cwi.nl"
   }
 ]
