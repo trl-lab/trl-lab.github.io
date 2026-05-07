@@ -5,5 +5,12 @@
     "cover_path": "assets/img/reading_group/agentic_winter_cover.jpg",
     "description": "The agentic winter focuses on how agentic systems can be applied to tabular data for data science and beyond.",
     "date": "2026-01-21T12:00:00"
+  },
+  {
+    "id": "scaling_tfms",
+    "name": "Scaling TFMs to large tables",
+    "cover_path": "assets/img/reading_group/scaling_tfms_cover.png",
+    "description": "In this theme discuss how tabular foundation models (TFMs) can be scaled to massive tables beyond the limits of current transformer architectures.",
+    "date": "2026-05-20T12:00:00"
   }
 ]

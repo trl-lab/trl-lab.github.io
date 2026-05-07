@@ -19,8 +19,8 @@ we aim to inspire research ideas, support growth as researcher, and facilitate n
 community.
 
 From the start of 2026 we are introducing themes: Series of 3-5 reading group sessions on a specific sub-topic within
-the domain of AI for tabular data. We start the year with _Agentic Winter_ which focuses on agentic approaches on
-tabular data.
+the domain of AI for tabular data. We started the year with _Agentic Winter_ which focuses on agentic approaches on
+tabular data and have now entered the theme of _"Scaling TFMs to large tables"_.
 
 ---
 
