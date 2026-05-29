@@ -305,5 +305,24 @@
     "chair": "Rohith Prabakaran",
     "chair_email": "rohith.pemmasani.prabakaran@cwi.nl",
     "theme_id": "scaling_tfms"
+  },
+  {
+    "date": "2026-06-01T12:00:00",
+    "paper": {
+      "title": "Softmax is not Enough (for Sharp Size Generalisation)",
+      "authors": [
+        "P. Veličković",
+        "C. Perivolaropoulos",
+        "F. Barbero",
+        "R. Pascanu"
+      ],
+      "url": "https://dl.acm.org/doi/10.5555/3780338.3782763",
+      "year": 2025,
+      "venue": "ICML",
+      "abstract": "A key property of reasoning systems is the ability to make sharp decisions on their input data. For contemporary AI systems, a key carrier of sharp behaviour is the softmax function, with its capability to perform differentiable query-key lookups. It is a common belief that the predictive power of networks leveraging softmax arises from \"circuits\" which sharply perform certain kinds of computations consistently across many diverse inputs. However, for these circuits to be robust, they would need to generalise well to arbitrary valid inputs. In this paper, we dispel this myth: even for tasks as simple as finding the maximum key, any learned circuitry must disperse as the number of items grows at test time. We attribute this to a fundamental limitation of the softmax function to robustly approximate sharp functions with increasing problem size, prove this phenomenon theoretically, and propose adaptive temperature as an ad-hoc technique for improving the sharpness of softmax at inference time."
+    },
+    "chair": "Elias Dubbeldam",
+    "chair_email": "e.f.dubbeldam@uva.nl",
+    "theme_id": "scaling_tfms"
   }
 ]
