@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-people",
           title: "People",
-          description: "Members, collaborators, and alumni of the TRL lab",
+          description: "Members, collaborators, and alumni of the TRL lab (in join order)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
