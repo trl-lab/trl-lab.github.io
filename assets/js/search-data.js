@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-people",
           title: "People",
-          description: "Members and collaborators of the TRL lab",
+          description: "Members, collaborators, and alumni of the TRL lab",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -149,6 +149,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/danielgomm/";
+            },},{id: "people-dennisloevlie",
+          title: 'Dennisloevlie',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/dennisloevlie/";
             },},{id: "people-hongqianxia",
           title: 'Hongqianxia',
           description: "",
@@ -189,21 +194,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/rohithprabakaran/";
-            },},{id: "people-wenjinglin",
-          title: 'Wenjinglin',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/wenjinglin/";
             },},{id: "people-wojciechkosiuk",
           title: 'Wojciechkosiuk',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/wojciechkosiuk/";
-            },},{id: "people-xingyucarlji",
-          title: 'Xingyucarlji',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/xingyucarlji/";
             },},{id: "people-xueeffyli",
           title: 'Xueeffyli',
           description: "",
