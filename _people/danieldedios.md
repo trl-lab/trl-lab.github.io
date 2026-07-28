@@ -4,6 +4,6 @@ name: "Daniel De Dios Allegue"
 role: Research student (BSc, TU Delft)
 category: current
 img: assets/img/daniel-dedios-allegue.jpg
-redirect: https://se.linkedin.com/in/daniel-de-dios-allegue
+redirect: https://daniallegue.github.io/
 importance: 12
 ---

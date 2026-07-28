@@ -26,8 +26,8 @@
     #{color.channel($black-color, "blue", $space: rgb)},
     0.4
   );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
+  --global-back-to-top-text-color: #{$black-color};
+  --global-newsletter-bg-color: #{$black-color};
   --global-newsletter-text-color: #{$black-color};
 
   --global-tip-block: #42b983;

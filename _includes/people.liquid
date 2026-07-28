@@ -1,7 +1,7 @@
 <div class="col">
   <a href="{% if people.redirect %}{{ people.redirect }}{% else %}{{ people.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
-      {% if people.img %}
+      {% if people.img and people.category != "alumni" %}
         {%
           include figure.liquid
           loading="eager"
@@ -12,7 +12,12 @@
       {% endif %}
       <div class="card-body">
         <h4 class="card-title">{{ people.name }}</h4>
-        <p class="card-text">{{ people.role }}</p>
+        <p class="card-text">
+        {{ people.role }}
+        <br>
+        <br>
+        {% if people.category == "alumni" %} now at: {{ people.nowat }} {% endif %}
+        </p>
         <div class="row ml-1 mr-1 p-0">
         </div>
       </div>

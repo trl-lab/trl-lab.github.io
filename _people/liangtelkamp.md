@@ -1,7 +1,8 @@
 ---
 layout: page
 name: Liang Telkamp
-role: Research student
+role: Research student (MSc, UvA)
+nowat: "United Nations & NextHuman"
 category: alumni
 img: assets/img/liang-telkamp.jpg
 redirect: https://www.illc.uva.nl/People/Students/person/5565/Liang-Telkamp

@@ -5,5 +5,5 @@ role: PhD researcher
 category: current
 img: assets/img/daniel-gomm.jpg
 redirect: https://www.daniel-gomm.com/
-importance: 3
+importance: 2
 ---

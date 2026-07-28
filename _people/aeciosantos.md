@@ -5,5 +5,5 @@ role: Postdoctoral researcher
 category: current
 img: assets/img/aecio-santos.jpeg
 redirect: https://aeciosantos.com/
-importance: 3
+importance: 5
 ---

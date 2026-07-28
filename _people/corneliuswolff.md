@@ -4,6 +4,6 @@ name: Cornelius Wolff
 role: PhD researcher
 category: current
 img: assets/img/cornelius-wolff.jpeg
-redirect: https://github.com/cowolff
-importance: 4
+redirect: https://cornelius-wolff.de/
+importance: 3
 ---
