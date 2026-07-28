@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-description: Members, collaborators, and alumni of the TRL lab
+description: Members, collaborators, and alumni of the TRL lab (in join order)
 display_categories: ["current", "collaborators", "alumni"]
 nav: true
 nav_order: 2
