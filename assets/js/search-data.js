@@ -154,6 +154,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/dennisloevlie/";
+            },},{id: "people-giuliaperciballi",
+          title: 'Giuliaperciballi',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/giuliaperciballi/";
             },},{id: "people-hongqianxia",
           title: 'Hongqianxia',
           description: "",
@@ -189,6 +194,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/nikolaselic/";
+            },},{id: "people-nourshaheen",
+          title: 'Nourshaheen',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/nourshaheen/";
             },},{id: "people-rohithprabakaran",
           title: 'Rohithprabakaran',
           description: "",
