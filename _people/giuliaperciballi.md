@@ -3,7 +3,7 @@ layout: page
 name: Giulia Perciballi
 role: PhD visitor
 category: current
-img: assets/img//
+img: assets/img/giulia-perciballi.jpg
 redirect: https://scholar.google.com/citations?user=faTUyWAAAAAJ&hl=en
 importance: 13
 ---
