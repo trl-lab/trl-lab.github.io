@@ -2,6 +2,7 @@
 layout: page
 name: "Daniel De Dios Allegue"
 role: Research student (BSc, TU Delft)
+nowat: "Cambridge"
 category: current
 img: assets/img/daniel-dedios-allegue.jpg
 redirect: https://daniallegue.github.io/

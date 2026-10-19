@@ -13,6 +13,8 @@ nav_order: 3
 
 We are hiring a new PhD student through the <a href="https://ellis.eu/phd-postdoc" target="blank">ELLIS PhD program</a>! This PhD student will be focusing on developing new capabilities for tabular foundation models. The PhD student will be advised by <a href="https://www.madelonhulsebos.com/" target="blank">Madelon Hulsebos</a> and based in the (<a href="https://trl-lab.github.io/" target="blank">TRL Lab at CWI</a>). The ELLIS co-supervisor can be discussed during the interview process and start of the PhD.<br>
 
+Applicants are required to have a master degree in AI, computer science, or related fields, with a strong interest in tabular foundation models and/or causal reasoning.<br>
+
 The PhD student ideally starts between May 2027 and October 2027, and is fully funded for 4-year with a gross monthly salary that increases from €3,115 in year 1 up to €3,989 in year 4. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days. More about the working conditions can be found <a href="https://www.cwi.nl/jobs/terms-of-employment" target="blank">here</a>.<br>
 
 <b>Applications are due 31 October. You can apply <u><b><a href="https://ellis.eu/news/ellis-phd-program-call-for-applications-2025" target="blank">here</a></b></u>!
