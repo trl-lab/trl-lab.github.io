@@ -124,6 +124,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20260123/";
+            },},{id: "news-hiring-a-phd-through-ellis-and-a-postdoc",
+          title: 'Hiring a PhD (through ELLIS) and a postdoc!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20261001/";
             },},{id: "people-aeciosantos",
           title: 'Aeciosantos',
           description: "",
