@@ -18,7 +18,7 @@ The TRL Lab went to Paris which included a boat trip and a visit to the SODA tea
 
 On Day 1, after arriving in Paris, we sat down with the lab in a room to have some discussions around our favorite "tables" (some that came up:vectorized MNIST, single-cell tables, etc.) and revolutions, while spending time thinking about how we'd like to redo our lab site (TBC!). Informed by some ideas from our brainstorm session, Cornelius Wolff and Daniel Gomm set Claude to work to redo our lab page, that resulted in an entertaining website with tabular theme, <a href="https://trl-lab.cowolff-shenanigans.com/" target="blank">go check it out here</a>! Afterwards, we went on a lovely boat tour over the Seine during golden hour followed by dinner!
 
-<img src="../../../assets/img/trl-lab-paris-boat.jpg" alt="isolated" width="400"/>
+<img src="../../../assets/img/trl-lab-paris-boat.jpg" alt="isolated" width="500"/>
 
 
 ### Day 2
@@ -26,4 +26,4 @@ On Day 1, after arriving in Paris, we sat down with the lab in a room to have so
 On Day 2, we visited the SODA team at Inria! After introductions several members of the TRL Lab gave talks. Effy talked about our recent work on the <a href="https://arxiv.org/pdf/2610.14115" target="blank">silent failure modes in agentic data science</a>, Daniel introduced our thinking and findings about <a href="https://open-tabular-insight-extraction.github.io" target="blank">open tabular insight extraction</a>, Cornelius introduced the <a href="https://trl-lab.github.io/sqale/" target="blank">new SQaLe dataset</a> and the agentic text-to-SQL models trained on it, and Nour presented the tabular selective attention mechanism for long-context tabular foundation models (TBC). The SODA team presented interesting overviews of their research lines around Tabular Foundation Models, AI for Education, and AI for Health. We ended the day with discussions on agentic data science, specialized versus general-purpose models for tabular AI, and tabular foundation models. To be continued...!
 
 
-<img src="../../../assets/img/trl-lab-paris-soda-visit.jpg" alt="isolated" width="600"/>
+<img src="../../../assets/img/trl-lab-paris-soda-visit.jpg" alt="isolated" width="700"/>
