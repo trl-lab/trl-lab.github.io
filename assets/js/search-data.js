@@ -140,6 +140,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20261001/";
+            },},{id: "news-we-had-a-retreat-in-paris-where-we-visited-soda-inria",
+          title: 'We had a retreat in Paris where we visited SODA@Inria!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20261020/";
             },},{id: "people-aeciosantos",
           title: 'Aeciosantos',
           description: "",
