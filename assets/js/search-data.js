@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/trl-reading-group/";
               },
-            },{id: "post-three-new-trl-seminar-talks-now-live-on-youtube",
+            },{id: "post-lab-retreat-amp-visit-soda-in-paris",
+        
+          title: "Lab Retreat &amp; Visit SODA in Paris",
+        
+        description: "The TRL Lab went to Paris for a lab retreat including a visit to the wonderful SODA team in Inria!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Paris-lab-retreat-and-soda-visit/";
+          
+        },
+      },{id: "post-three-new-trl-seminar-talks-now-live-on-youtube",
         
           title: "Three new TRL Seminar talks now live on YouTube!",
         
