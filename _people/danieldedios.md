@@ -1,7 +1,8 @@
 ---
 layout: page
 name: "Daniel De Dios Allegue"
-role: Research student (BSc, TU Delft)
+role: Research student (MSc, Cambridge)
+topic: tabular foundation models
 nowat: "Cambridge"
 category: current
 img: assets/img/daniel-dedios-allegue.jpg
