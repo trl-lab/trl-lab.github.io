@@ -175,6 +175,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/dennisloevlie/";
+            },},{id: "people-felixlefebvre",
+          title: 'Felixlefebvre',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/felixlefebvre/";
             },},{id: "people-giuliaperciballi",
           title: 'Giuliaperciballi',
           description: "",
