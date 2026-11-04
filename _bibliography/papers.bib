@@ -3,6 +3,15 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{wolff2026sqale,
+      title={Towards Specialized Text-to-SQL Models with SQaLe}, 
+      author={Cornelius Wolff and Daniel Gomm and Madelon Hulsebos},
+      year={2026},
+      pdf={https://trl-lab.github.io/sqale/assets/pdf/SQaLe-paper.pdf},
+      url={https://trl-lab.github.io/sqale/},
+      abstract={The strong coding generation capabilities of large language models have accelerated progress in text-to-SQL, the task of converting natural language questions into executable SQL queries. The state-of-the-art in text-to-SQL is currently set by frontier language models embedded in composite agentic pipelines that incur substantial inference cost. Specialised small models would avoid this cost but training them requires data reflecting the scale, semantics, and structural diversity of real-world databases. Towards this vision, we introduce SQALE, a large-scale semi-synthetic text-to-SQL dataset built on 9,259 schemas from SchemaPile, a collection of real-world schemas extracted from GitHub. We present an informed data generation pipeline that combines schema extension, value synthesis, question generation, and agentic answering under execution-based validation at every stage, and produce 1,408,056 high-quality natural language (NL) questions pair with 176,761 corresponding SQL queries. Besides the large scale of SQaLe, our analysis shows that it offers significantly larger schemas than existing datasets and rich query distribution. We demonstrate how SQaLe empowers small specialised text-to-SQL models by training a small language model with GRPO directly on SQaLe that improves the untrained base model by nearly 33 points on BIRD dev, which is an unprecedented gain. We find that, among other factors, key to this performance is that training on SQaLe enables the model to learn exploring the database. It finds the relevant tables more often and looks up far more of the values it needs than when trained on other datasets. The dataset, generation pipeline, and training code are available at: https://trl-lab.github.io/sqale/.}
+}
+
 @article{li2026silent,
   title={The Silent Failures in Agentic Data Science},
   author={Li, Xue and Xia, Hongqian and Gomm, Daniel and Santos, A{\'e}cio and Wolff, Cornelius and Hulsebos, Madelon},
