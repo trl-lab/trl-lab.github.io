@@ -26,7 +26,7 @@ Did you recently complete a PhD in the direction of foundation models, world mod
 
 The postdoc position is funded for 2 years with a gross monthly salary that ranges from €3,630 to €4,374, depending on post-PhD experience. You will receive an extra holiday allowance (8%) and year-end bonus (8.233%), as well as 42 vacation days.
 
-<b>Applications (CV, brief motivation, with 2 references) can be sent to <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a>, and are reviewed as they come in.</b>
+<b>Applications (CV, brief motivation, with 2 references) can be sent to <a href="mailto:madelon@cwi.nl" target="blank">madelon@cwi.nl</a>, by the deadline of 30 November.</b>
 
 
 <!-- ### Research Engineer
