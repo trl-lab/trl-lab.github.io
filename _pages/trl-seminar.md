@@ -10,6 +10,9 @@ profiles:
     content: seminar_talks/info.md
 
   - align: right
+    content: seminar_talks/202612.md
+
+  - align: right
     content: seminar_talks/past-talks.md
 
   - align: right
