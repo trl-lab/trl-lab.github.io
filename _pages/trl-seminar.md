@@ -7,7 +7,7 @@ nav: false
 profiles:
   # to update, add new talk markdown file 'to seminar_talks/', and drag past talk markdown files to below 'past-talks'
   - align: right
-    content: seminar_talks/info.md
+    content: seminar_talks/info.md 
 
   - align: right
     content: seminar_talks/202612.md
